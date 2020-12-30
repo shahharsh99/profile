@@ -1,0 +1,107 @@
+<!--doctype html-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>My Profile</title>
+    <!--style----->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/fav-icon.png">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: poppins;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <!--logo--------------->
+        <a href="#" class="logo">
+            <img src="images/logo.png" />
+        </a>
+        <!--menu-btn-------------->
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+        <label class="menu-icon" for="menu-btn">
+                    <span class="nav-icon"></span>
+                </label>
+        <!--menu-------------->
+        <ul class="menu">
+            <li><a href="#main">Home</a></li>
+            <li><a href="#skills">My Profile</a></li>
+            <li><a href="#skills">Appointment Dashboard</a></li>
+            <li><a href="#recent">Add Patient</a></li>
+            <li><a href="#client">Search Patient</a></li>
+            <li><a href="#contact">Samhita</a></li>
+        </ul>
+        <!--say-hey--------->
+        <a href="#" class="hey">Logout</a>
+    </nav>
+
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <center>
+        <div class="context">
+            <div id="container">
+                <h1>&bull; Profile &bull;</h1>
+                <div class="underline">
+                </div>
+                <form action="#" method="post" id="contact_form">
+                    <div class="name">
+                        <label for="name"></label>
+                        <input type="text" placeholder="My name is" name="name" id="name_input" required>
+                    </div>
+                    <div class="email">
+                        <label for="email"></label>
+                        <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
+                    </div>
+                    <div class="telephone">
+                        <label for="name"></label>
+                        <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
+                    </div>
+                    <div class="subject">
+                        <label for="subject"></label>
+                        <select placeholder="Subject line" name="subject" id="subject_input" required>
+              <option disabled hidden selected>Subject line</option>
+              <option>I'd like to start a project</option>
+              <option>I'd like to ask a question</option>
+              <option>I'd like to make a proposal</option>
+            </select>
+
+                    </div>
+                    <div class="message">
+                        <label for="message"></label>
+                        <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Send Message" id="form_button" />
+                    </div>
+                </form>
+                <!-- // End form -->
+            </div>
+            <!-- // End #container -->
+            <!--footer--------->
+        </div>
+    </center>
+    <footer>
+        <p>Going To Internet, Ltd Consumer Website</p>
+        <p>Copyright 2020 - GoingToInternet</p>
+    </footer>
+</body>
+
+</html>
